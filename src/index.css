@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080E14;
+  color: #F5F0E6;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0E1A26;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A84C44;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A84C88;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+video {
+  display: block;
+}
+
+
+/* ── Portfolio entrance animations ── */
+@keyframes kfadeup {
+  from { opacity:0; transform:translateY(18px); }
+  to   { opacity:1; transform:translateY(0);    }
+}
+@keyframes kfadeout {
+  from { opacity:1; transform:scale(1);    }
+  to   { opacity:0; transform:scale(0.97); }
+}
+.design-enter {
+  animation: kfadeup 0.7s cubic-bezier(0.22,1,0.36,1) both;
+}
+.design-enter:nth-child(1) { animation-delay: 0s;    }
+.design-enter:nth-child(2) { animation-delay: 0.12s; }
+.design-enter:nth-child(3) { animation-delay: 0.22s; }
+.design-enter:nth-child(4) { animation-delay: 0.32s; }
