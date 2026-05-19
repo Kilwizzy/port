@@ -318,10 +318,10 @@ export default function Portfolio(){
           Kelvin Tony<br/><span style={{color:T.gold}}>Bidi</span>
         </h1>
         <p style={{fontSize:16,color:"rgba(255,255,255,0.45)",fontWeight:300,maxWidth:600,lineHeight:1.75,marginBottom:32}}>
-          Full Stack Developer &amp; Virtual Assistant — building real-world web apps with React, Next.js, Node.js &amp; MongoDB, while delivering polished graphic design, video editing, and presentations.
+          Full Stack Developer — building real-world web apps with React, Next.js, Node.js &amp; MongoDB. I also bring creative range: graphic design, video editing, and polished presentations.
         </p>
         <div style={{display:"flex",flexWrap:"wrap",gap:8,marginBottom:36}}>
-          {["Full Stack Dev","React · Next.js","Node.js · Express","MongoDB","Graphic Design","Video Editing","ChatGPT Research"].map(t=>(
+          {["Full Stack Dev","React · Next.js","Node.js · Express","MongoDB","TypeScript","Blockchain · Soroban","Creative + Design"].map(t=>(
             <span key={t} style={{fontSize:11,fontWeight:500,background:"rgba(255,255,255,0.04)",border:"0.5px solid rgba(255,255,255,0.1)",color:"rgba(255,255,255,0.55)",padding:"5px 13px",borderRadius:20}}>{t}</span>
           ))}
         </div>
@@ -340,7 +340,7 @@ export default function Portfolio(){
 
       {/* STATS */}
       <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",borderBottom:"0.5px solid rgba(255,255,255,0.06)",maxWidth:980,margin:"0 auto"}}>
-        {[["5+","Real-World Apps"],["10+","GitHub Projects"],["2-in-1","Dev + Creative VA"],["100%","Remote Ready"]].map(([n,l])=>(
+        {[["5+","Real-World Apps"],["10+","GitHub Projects"],["Full","Stack Depth"],["100%","Remote Ready"]].map(([n,l])=>(
           <div key={l} style={{padding:24,borderRight:"0.5px solid rgba(255,255,255,0.06)",textAlign:"center"}}>
             <div style={{fontFamily:T.serif,fontSize:28,fontWeight:700,lineHeight:1}}><span style={{color:T.gold}}>{n}</span></div>
             <div style={{fontSize:11,color:T.mid,marginTop:5}}>{l}</div>
@@ -354,10 +354,10 @@ export default function Portfolio(){
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:40,alignItems:"start"}}>
           <div>
             <p style={{fontSize:15,lineHeight:1.85,color:"rgba(255,255,255,0.5)",marginBottom:18}}>
-              I&apos;m a Full Stack Developer and creative Virtual Assistant from Kaduna, Nigeria. I build clean, powerful web applications with modern stacks — and bring the same attention to detail to graphic design, video editing, and PowerPoint production.
+              I&apos;m a Full Stack Developer from Kaduna, Nigeria. I build clean, powerful web applications with modern stacks — and bring creative range to every project through graphic design, video editing, and presentation design.
             </p>
             <p style={{fontSize:14,lineHeight:1.8,color:"rgba(255,255,255,0.3)",marginBottom:20}}>
-              On the dev side I&apos;ve shipped multi-vendor marketplaces, hotel PMS systems, and DeFi protocols on the Stellar blockchain. On the creative side I produce ChatGPT-researched decks and branded graphic assets.
+              I&apos;ve shipped multi-vendor marketplaces, hotel PMS systems, and DeFi protocols on the Stellar blockchain. My creative work — branded graphics, video edits, and polished decks — makes me a developer who communicates as well as he codes.
             </p>
             <a href="https://github.com/Codex723" target="_blank" rel="noopener noreferrer"
               style={{display:"inline-flex",alignItems:"center",gap:7,color:T.gold,fontSize:12,textDecoration:"none",border:"0.5px solid rgba(201,168,76,0.3)",padding:"7px 16px",borderRadius:8,fontWeight:500}}>
@@ -493,10 +493,10 @@ export default function Portfolio(){
         <SectionHead icon={Icons.mail} label="Contact"/>
         <div style={{background:"linear-gradient(135deg,#141414 0%,#1a1a14 100%)",border:"0.5px solid rgba(201,168,76,0.2)",borderRadius:16,padding:"52px 40px",textAlign:"center"}}>
           <h2 style={{fontFamily:T.serif,fontSize:36,fontWeight:700,marginBottom:10}}>Ready to Work Together?</h2>
-          <p style={{fontSize:14,color:"rgba(255,255,255,0.35)",marginBottom:32}}>Available for freelance, contract, and remote full-time opportunities.</p>
+          <p style={{fontSize:14,color:"rgba(255,255,255,0.35)",marginBottom:32}}>Available for freelance, contract, and remote full-time dev work.</p>
           <div style={{background:"#0A0A0A",borderRadius:10,padding:"22px 30px",display:"inline-block",textAlign:"left",marginBottom:24}}>
             <div style={{fontSize:9,color:"#444",letterSpacing:"2px",marginBottom:5}}>EMAIL</div>
-            <div style={{fontSize:14,color:T.gold,marginBottom:14}}>bidikelvin282@gmail.com</div>
+            <div style={{fontSize:14,color:T.gold,marginBottom:14}}>bidifortune@gmail.com</div>
             <div style={{fontSize:9,color:"#444",letterSpacing:"2px",marginBottom:5}}>GITHUB</div>
             <div style={{fontSize:13,color:"rgba(255,255,255,0.75)",fontWeight:500,marginBottom:14}}>github.com/Codex723</div>
           </div>
@@ -509,7 +509,7 @@ export default function Portfolio(){
 
       {/* FOOTER */}
       <footer style={{borderTop:"0.5px solid rgba(255,255,255,0.06)",padding:"20px 40px",display:"flex",justifyContent:"space-between",alignItems:"center",maxWidth:980,margin:"0 auto"}}>
-        <span style={{fontSize:11,color:"#2a2a2a"}}>Kelvin Tony Bidi · Full Stack Developer &amp; Virtual Assistant</span>
+        <span style={{fontSize:11,color:"#2a2a2a"}}>Kelvin Tony Bidi · Full Stack Developer</span>
         <span style={{fontSize:11,color:"#2a2a2a"}}>2026</span>
       </footer>
 
