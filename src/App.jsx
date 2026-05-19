@@ -210,16 +210,18 @@ const DECKS=[
 const DEV_PROJECTS=[
   {name:"MarketForge",url:"https://github.com/Codex723/MarketForge",desc:"Full-stack multi-vendor marketplace for Nigeria with smart delivery routing across 36 cities, Paystack payment integration, JWT auth, and Cloudinary media management.",stack:["Next.js 14","Express.js","MongoDB","Paystack","JWT"],accent:T.gold,icon:Icons.shoppingCart},
   {name:"Hotel Management System",url:"https://github.com/Codex723/Hotel-Management-System",desc:"Full-stack Property Management System (PMS) that digitises the complete guest lifecycle — from reservation and room assignment to automated billing and checkout.",stack:["TypeScript","Node.js","Express","MongoDB"],accent:T.blue,icon:Icons.building},
-  {name:"Stellar Vault",url:"https://github.com/Stellar-Vault-Org/Stellar-Vault",desc:"Decentralised yield aggregator on Soroban (Stellar Network) implementing SEP-0056. Users deposit assets into secure non-custodial vaults with automated yield optimisation.",stack:["TypeScript","Soroban","Stellar Network","DeFi"],accent:"#8B5BE0",icon:Icons.lock},
-  {name:"StellarStream",url:"https://github.com/Codex723/StellarStream",desc:"Decentralised real-time payroll protocol on Soroban — streams assets second-by-second with linear distribution logic and non-custodial security.",stack:["TypeScript","Soroban","Stellar"],accent:"#1a9E50",icon:Icons.activity},
-  {name:"Creditra Frontend",url:"https://github.com/Codex723/Creditra-Frontend",desc:"Frontend contribution to Creditra, a financial platform improving credit accessibility and management across emerging markets.",stack:["TypeScript","React.js"],accent:T.red,icon:Icons.creditCard},
+  {name:"RemitX",url:"https://github.com/Codex723/RemitX",desc:"Cross-border remittance routing protocol on Stellar that finds the cheapest transfer paths using DEX liquidity, SEP-24 anchors, and real-time exchange rate tracking.",stack:["TypeScript","Stellar","DEX","SEP-24"],accent:"#8B5BE0",icon:Icons.activity},
+  {name:"AgroChain",url:"https://github.com/Codex723/Agrochain",desc:"Supply chain finance platform for farmers on Stellar — crop tokenization, escrow-based payments, investor funding rounds, and oracle-powered verification.",stack:["TypeScript","Stellar","Soroban","DeFi"],accent:"#1a9E50",icon:Icons.layers},
+  {name:"TrustID",url:"https://github.com/Codex723/TrustID",desc:"Decentralized identity and reusable KYC platform on Stellar with DID management, verifiable credentials, and privacy-preserving zero-knowledge proofs.",stack:["TypeScript","Stellar","DID","ZK Proofs"],accent:T.gold,icon:Icons.lock},
+  {name:"StellarPay",url:"https://github.com/Codex723/StellarPay",desc:"Soroban-powered payroll and invoicing SDK for Stellar — batch salary payments, contractor invoicing, escrow vaults, and multi-currency DEX settlements with a React dashboard.",stack:["TypeScript","Soroban","React","Stellar DEX"],accent:"#2B5BE0",icon:Icons.creditCard},
+  {name:"SmartWallet",url:"https://github.com/Codex723/SmartWallet",desc:"Smart contract wallet on Stellar/Soroban with advanced account management, multi-sig support, and programmable spending controls.",stack:["TypeScript","Soroban","Stellar","Smart Contracts"],accent:T.red,icon:Icons.cpu},
 ];
 const TECH=[
   {label:"Frontend",items:["HTML5","CSS3","JavaScript","React","Next.js 14"],color:T.blue},
   {label:"Backend",items:["Node.js","Express.js","PHP","REST APIs"],color:T.gold},
   {label:"Database",items:["MongoDB","MySQL"],color:"#1a9E50"},
   {label:"Tools",items:["Git","GitHub","VSCode","Postman"],color:"#8B5BE0"},
-  {label:"Blockchain",items:["Soroban","Stellar","DeFi"],color:T.red},
+  {label:"Blockchain",items:["Soroban","Stellar","DeFi","ZK Proofs","DID","DEX"],color:T.red},
 ];
 
 /* ─── SHARED STYLES ───────────────────────────────────────────────────────── */
